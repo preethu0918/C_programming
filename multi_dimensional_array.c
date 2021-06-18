@@ -35,7 +35,7 @@ int main()
   	}
     printf("\n  It's the sum of diagonal a[0][0],a[1][1],a[2][2]");
  	printf("\n The Sum of 1st Diagonal Elements of a Matrix =  %d", Sum );    
- 	int size=3;
+ 	int size=x;
  	for(i=0; i<=size+1; i++)
   	{
    		Sum1 = Sum1 + arr[i][size-1];
